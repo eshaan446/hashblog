@@ -78,12 +78,12 @@ const Dashboard = () => {
                     <img src={post.img} alt="" width={200} height={100} />
                   </div>
                   <h2 className={styles.postTitle}>{post.title}</h2>
-                  <span
+                        {/*<span
                     className={styles.delete}
                     onClick={() => handleDelete(post._id)}
                   >
-                  <button className={styles.button}>Delete</button>
-                  </span>
+  <button className={styles.button}>Delete</button>
+                  </span>*/}
                 </div>
               ))}
         </div>
